@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match
-    new_arr = []
     binding.pry
+    new_arr = []
   end
 end
