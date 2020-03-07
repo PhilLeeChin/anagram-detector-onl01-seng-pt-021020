@@ -9,6 +9,7 @@ class Anagram
 
   def match
     new_arr = []
+    splice_ph = phrase.split(' ')
     binding.pry
   end
 end
