@@ -1,5 +1,4 @@
 # Your code goes here!
-require "pry"
 class Anagram
   attr_accessor :phrase
 
@@ -14,7 +13,6 @@ class Anagram
       ph.sort
       new_arr << ph
     end
-    binding.pry
     new_arr
   end
 end
