@@ -10,4 +10,5 @@ class Anagram
   def match
     new_arr = []
     binding.pry
+  end
 end
