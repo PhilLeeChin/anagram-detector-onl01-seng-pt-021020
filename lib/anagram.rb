@@ -8,13 +8,9 @@ class Anagram
   end
 
   def self.match
-    new_arr = []
     splice_ph = phrase.split(' ')
     splice_ph.each do |ph|
-      binding.pry
-      ph.sort
-      new_arr << ph
+      ph.sort == @phrase.split(' ').sort
     end
-    new_arr
   end
 end
