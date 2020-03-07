@@ -7,7 +7,7 @@ class Anagram
     @phrase = phrases
   end
 
-  def self.match
+  def match
     splice_ph = phrase.split(' ')
     splice_ph.each do |ph|
       ph.sort == @phrase.split(' ').sort
