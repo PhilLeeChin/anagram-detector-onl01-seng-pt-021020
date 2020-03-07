@@ -10,6 +10,7 @@ class Anagram
   def match
     new_arr = []
     splice_ph = phrase.split(' ')
+    binding.pry
     splice_ph.each do |ph|
       ph.sort
       new_arr << ph
