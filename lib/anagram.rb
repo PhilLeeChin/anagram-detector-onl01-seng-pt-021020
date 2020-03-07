@@ -8,8 +8,7 @@ class Anagram
   end
 
   def match(array)
-    array.select! do |ph|
-      ph.split(" ").sort == @phrase.split(" ").sort
-    end
+    array.select! {|ph|
+      ph.split(" ").sort == @phrase.split(" ").sort}
   end
 end
