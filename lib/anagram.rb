@@ -8,8 +8,8 @@ class Anagram
   end
 
   def match
+    binding.pry
     new_arr = []
     splice_ph = phrase.split(' ')
-    binding.pry
   end
 end
