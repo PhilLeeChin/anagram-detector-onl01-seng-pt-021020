@@ -6,9 +6,9 @@ class Anagram
   def initialize(phrases)
     @phrase = phrases
   end
-
+  binding.pry
   def match
-    binding.pry
+    
     new_arr = []
   end
 end
